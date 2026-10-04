@@ -1,0 +1,5 @@
+<resources>
+    <declare-styleable name="RatioFrameLayout">
+        <attr name="heightRatio" format="float"/>
+    </declare-styleable>
+</resources>
