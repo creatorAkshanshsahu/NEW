@@ -1,0 +1,5 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="400dp" android:layout_height="124dp" android:layout_margin="8dp" android:background="@drawable/card_bg">
+    <TextView android:layout_width="match_parent" android:layout_height="match_parent" android:gravity="center"
+        android:padding="20dp" android:text="Hold OK on any channel to add it here ♥" android:textColor="#8E8E93" android:textSize="14sp"/>
+</FrameLayout>

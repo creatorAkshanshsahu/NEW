@@ -1,0 +1,10 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical"
+    android:clipChildren="false" android:clipToPadding="false">
+    <TextView android:id="@+id/rowTitle" android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:layout_marginStart="6dp" android:layout_marginTop="16dp" android:textColor="#FFFFFF" android:textSize="22sp"
+        android:fontFamily="sans-serif-medium"/>
+    <androidx.recyclerview.widget.RecyclerView android:id="@+id/rowList" android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:clipChildren="false" android:clipToPadding="false"
+        android:paddingTop="16dp" android:paddingBottom="22dp" android:paddingStart="4dp" android:paddingEnd="60dp"/>
+</LinearLayout>
